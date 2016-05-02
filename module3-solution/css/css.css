@@ -1,32 +1,95 @@
-h1 {
-  font-family: Times, Garamond, serif;
-  color: #e44a74;
-  font-size: 36px;
-  text-align: center;
-  margin-top: 50px;
+body {
+  font-size: 16px;
+  color: #F5D16A;
+  background-color: #90D1AA;
+  font-family: 'Oxygen', sans-serif;
 }
 
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #000000;
-  font-style: normal;
-  font-weight: lighter;
-  font-size: 15px;
-  border: 1px solid black;
-  background-color: #7caa90;
-  width: 90%;
-  padding: 55px 15px 10px 15px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 25px;
+h2 {
+  color: #030303;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+h3 {
+  color: #374587;
+  text-align: center;
+  font-size: .7em;
+  margin: 0 0 0 0;
 }
 
 h4 {
-  font-family: Times, Garamond, serif;
-  color: #ffffff;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  border: 1px solid black;
-  padding: 5px 35px 5px 35px;
+  color: #030303;
+  text-align: center;
+  margin-top: 10px;
 }
+
+div#container {
+  background-color: #D9D6CF;
+  opacity: .9;
+  height: 1000px;
+  padding: 0px 10px 10px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #030303;
+  font-weight: lighter;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #CE786E;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  height: 70px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #F5D16A;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #374587;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #F5D16A;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #724E89;
+  background-color: #F5D16A;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.8em;
+  }
